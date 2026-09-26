@@ -3,6 +3,16 @@
     src: url(Fontes/Comfortaa-VariableFont_wght.ttf);
 }
 
+@font-face {
+    font-family: Lemon Fina ;
+    src: url(Fontes/LEMONMILK-Light.otf);
+}
+
+@font-face {
+    font-family: Creato;
+    src: url(Fontes/CreatoDisplay-Regular.otf);
+}
+
 body {
     background-color: black;
 }
@@ -21,7 +31,7 @@ header {
 }
 
 .logo > img {
-   width: 200px;
+   width: 170px;
    padding: 20px;
    margin-left: 30px;
     height: auto; 
@@ -51,18 +61,38 @@ header {
 
 
 
+section.banner > div#Textopequenodobanner > h3 {
+    position: absolute;
+    top: 350px;
+    width: 300px;
+    text-align: center;
+    color: #FF006A;
+    margin: 0;
+    font-family: Creato;
+    letter-spacing: 5px;
+}
+
+section.banner > div#Textopequenodobanner > h3:first-child {
+    left: 10vw;
+    transform: rotate(8deg);
+    font-size: clamp(1.6vw, 5vw, 1vw);
+}
+
+section.banner > div#Textopequenodobanner > h3:last-child {
+    right: 5vw;
+    transform: rotate(-8deg);
+    font-size: clamp(1.3vw, 5vw, 1vw);
+}
+
 section.banner {
+    position: relative; 
     display: flex;
     color: white;
     font-family: Conforta;
     justify-content: center;
     flex-direction: column;
     align-items: center;
-}
 
-section > h3.Textopequenodobanner {
-    font-size: 90px;
-    justify-content: space-between;
 }
 
 section.banner > h2 {
@@ -85,4 +115,5 @@ section > img#Mulheres {
     width: 85%;
      height: auto;
      margin: 10px;
+
 }
