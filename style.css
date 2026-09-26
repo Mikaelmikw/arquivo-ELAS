@@ -1,0 +1,88 @@
+@font-face {
+    font-family: Conforta;
+    src: url(Fontes/Comfortaa-VariableFont_wght.ttf);
+}
+
+body {
+    background-color: black;
+}
+
+header {
+    display: flex;
+    border-bottom: 2px solid #FF006A;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.icones > a > img{
+    width: 200px;
+    height: auto;
+    margin-right: 30px;
+}
+
+.logo > img {
+   width: 200px;
+   padding: 20px;
+   margin-left: 30px;
+    height: auto; 
+}
+
+.botoesnav {
+    display: flex;
+    font-size: 60px;
+    gap: 100px;
+    list-style: none;
+}
+
+.botoesnav > li > a {
+    color: white;
+    text-decoration: none;
+    font-family: Conforta ;
+    padding: 50px;
+}
+
+.botoesnav > li> a:hover{
+    background-color:#FF006A;
+    border-radius: 100px;
+}
+
+
+
+
+
+
+section.banner {
+    display: flex;
+    color: white;
+    font-family: Conforta;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+section > h3.Textopequenodobanner {
+    font-size: 90px;
+    justify-content: space-between;
+}
+
+section.banner > h2 {
+    font-size: 135px;
+    margin: 30px ;
+}
+
+section.banner > h3 {
+    font-size: 55px;
+    margin: 30px;
+}
+
+section > img#arqelaslogo {
+    width: 50%;
+    height: auto;
+    padding-top: 80px;
+}
+
+section > img#Mulheres {
+    width: 85%;
+     height: auto;
+     margin: 10px;
+}
