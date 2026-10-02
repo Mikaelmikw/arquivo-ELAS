@@ -162,7 +162,7 @@ section.Mulheres > div > h2 {
     font-family: Lemon fina;
     font-size: 1.5vw;
     margin: 30px;
-    border: solid #FF006A 3px;
+    border: solid #FF006A 2px;
     padding: 10px;
 }
 
@@ -179,3 +179,55 @@ section.Mulheres > div > h2 {
 #Estrela   { width: 7vw;  top: 3.5%;  left: 85.5%; }
 #PlantaEsq { width: 14vw; top: 43.5%; left: -6.4%; }
 #PlantaDir { width: 14vw; top: 39%;   right: -3.5%; transform: scaleX(-1); } 
+
+
+
+/* Botão Máq do Tempo  */
+section.Botao {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+section.Botao > button {
+    display: flex;
+    align-items: flex-end;
+    gap: 1vw;
+    padding: 0 3vw;
+    background: transparent;
+    border: none;
+    border-left: 2px solid #FF006A;
+    border-right: 2px solid #FF006A;
+    cursor: pointer;
+}
+
+section.Botao > button > img {
+    width: 6vw;
+    height: auto;
+}
+
+section.Botao > button > a > span {
+    
+    color: white;
+    font-family: Lemon fina;
+    font-size: 2vw;
+    font-weight: bold;
+    line-height: 1.1;
+    text-align: left;
+    border-bottom: 2px solid #FF006A;
+    padding-bottom: 6px;
+}
+
+
+footer#binario {
+    display: flex;
+    
+    color: #FF006A;
+    border-top: white solid 2px;
+     border-bottom: white solid 2px;
+    font-size: 1.3vw;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+    font-family: Lemon Fina;
+}
