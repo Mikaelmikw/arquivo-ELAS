@@ -15,6 +15,7 @@
 
 body {
     background-color: black;
+    overflow-x: hidden; /* evita barra lateral quando uma planta passa da borda */
 }
 
 header {
@@ -27,19 +28,19 @@ header {
 }
 
 .icones > a > img{
-    width: 4vw;
+    width: 3vw;
     height: auto;
    
 }
 
 .logo > img {
-   width: 4vw;
+   width: 3vw;
     height: auto; 
 }
 
 .botoesnav {
     display: flex;
-    font-size: 1.5vw;
+    font-size: 1vw;
     gap: 30px;
     list-style: none;
     padding: 0;
@@ -99,7 +100,7 @@ section > img#arqelaslogo {
 }
 
 section > img#Mulheres {
-    width: 80%;
+    width: 90%;
      height: auto;
      margin: 20px 10px 10px 10px;
 
@@ -108,12 +109,13 @@ section > img#Mulheres {
 section.Mulheres {
     display: flex;
     color: #FF006A;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     margin-left: 12%;
     margin-right: 10%;
     font-weight: bold;
     text-align: center;
+
 }
 
 section.Mulheres > div > h3 {
@@ -130,7 +132,7 @@ section.Mulheres > div > h3 {
 
 section.Mulheres > div > h2 {
     margin: 0px;
-    font-size: 1.3vw;
+    font-size: 1.2vw;
     font-family: Lemon fina;
 
 }
@@ -140,7 +142,7 @@ section.Mulheres > div > h2 {
     top: 40%; 
     left: 1%; 
     transform: translateY(-50%); 
-    width: 20vw; 
+    width: 16vw; 
     height: auto;
 }
 
@@ -150,6 +152,30 @@ section.Mulheres > div > h2 {
     top: 35%; 
     right: 4%; 
     transform: translateY(-50%); 
-    width: 18vw; 
+    width: 16vw; 
     height: auto;
 }
+
+#destaque {
+    text-align: center;
+    color: white;
+    font-family: Lemon fina;
+    font-size: 1.5vw;
+    margin: 30px;
+    border: solid #FF006A 3px;
+    padding: 10px;
+}
+
+.enfeite {
+    position: absolute;
+    height: auto;
+    pointer-events: none;
+}
+
+#Brilho    { width: 75vw; top: -67%; left: 50%; transform: translateX(-50%); z-index: -1; } 
+#Camera    { width: 8vw;  top: 4.5%;  left: 13.7%; }
+#Livros    { width: 10vw; top: 29%;   left: 22.6%; }
+#Lupa      { width: 10vw; top: 23.7%; left: 66.5%; }
+#Estrela   { width: 7vw;  top: 3.5%;  left: 85.5%; }
+#PlantaEsq { width: 14vw; top: 43.5%; left: -6.4%; }
+#PlantaDir { width: 14vw; top: 39%;   right: -3.5%; transform: scaleX(-1); } 
